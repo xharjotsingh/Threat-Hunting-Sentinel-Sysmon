@@ -1,0 +1,4 @@
+Event
+|where EventID == 1
+|where RenderedDescription contains "whoami"
+|project EventID, RenderedDescription, Computer, EventLog

@@ -1,0 +1,4 @@
+Event
+|where EventID == 1
+|where RenderedDescription contains "certutil" or RenderedDescription contains "mshta"
+|project EventID, RenderedDescription, Computer, EventLog
