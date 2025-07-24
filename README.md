@@ -14,7 +14,7 @@ This project simulates attacker behavior (PowerShell, LOLBins techniques) in a c
 
 ---
 
-## Project Structure
+```## Project Structure
 Threat-Hunting-Sentinel-Sysmon/
 ├── kql/                   # KQL detection queries
 │   └── T1059_CommandExec
@@ -30,3 +30,4 @@ Threat-Hunting-Sentinel-Sysmon/
 │       ├── t1086_encoded_powershell.png
 │       ├── t1218_LOLBins.png
 ├── README.md              # Project overview (this file)
+```
